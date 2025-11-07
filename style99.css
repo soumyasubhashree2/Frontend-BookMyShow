@@ -1,0 +1,66 @@
+@media (max-width: 426px) {
+  nav {
+    display: none;
+  }
+  .navLinks {
+    display: none;
+  }
+  .banner {
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  header {
+    margin: 0px 10px;
+  }
+  .left svg {
+    display: none;
+  }
+  .left input {
+    width: 90vw;
+  }
+  .right {
+    display: none;
+  }
+  .navLinks {
+    padding: 10px 0px;
+  }
+  #offers {
+    display: none;
+  }
+  .banner {
+    padding: 10px 40px;
+  }
+
+  .recommended-movies {
+    padding-top: 30px;
+    margin: 0px 0px;
+    background-color: white;
+  }
+  .movies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .live-events {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px 0px;
+    background-color: white;
+  }
+
+  #banr {
+    padding-top: 80px;
+    background-color: #ffffff;
+  }
+  #banr img {
+    height: 60px;
+    /* width: 900px; */
+    border-radius: 10px;
+    width: 100%;
+    padding: 0px 0px;
+  }
+}
